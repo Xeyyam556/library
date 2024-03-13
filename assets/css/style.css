@@ -1,0 +1,300 @@
+body {
+    color: (255, 250, 245)
+}
+
+.head {
+    position: fixed;
+
+    background-color: rgb(255, 255, 255);
+}
+
+.bookImg img {
+
+    box-sizing: border-box;
+}
+
+.bookImg {
+    margin-left: 215px;
+    margin-top: 36px;
+
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+}
+
+.logo .logoText {
+
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin-top: 37px;
+
+}
+
+.logo .logoText,
+h2 {
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 900;
+    color: rgb(114, 4, 24);
+}
+
+.logo .logoText,
+p {
+    font-size: 13px;
+    font-family: Montserrat;
+    font-weight: 400;
+}
+
+.logo .logoText hr {
+    width: 203px;
+    height: 1px;
+    color: rgba(255, 255, 255, 0.59);
+    margin: 0px;
+    margin-bottom: 4.05px;
+
+}
+
+.catalogRead {
+
+    margin-top: 248.21px;
+       width: 467px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.catalogRead h1 {
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 36px;
+    color: rgb(36, 20, 0);
+}
+
+.catalogRead p {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgb(36, 20, 0);
+}
+
+.catalogRead button {
+    width: 212px;
+    background-color: rgb(225, 106, 0);
+    height: 50px;
+    border: 1px solid rgb(225, 106, 0);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.catalogRead button p {
+    font-family: Montserrat;
+    width: 164px;
+    box-sizing: border-box;
+    font-weight: 900;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    /* border: 1px solid black; */
+    margin-left: 24px;
+
+    text-align: left;
+}
+
+.section1 {
+    height: 630px;
+    display: flex;
+    gap: 102px;
+    justify-content: center;
+
+}
+
+.img1 {
+    display: inline-block;
+    margin-top: 200px;
+    position: relative;
+}
+
+.img1 img {
+    width: 562px;
+    height: 314px;
+}
+
+.img2 {
+
+    position: absolute;
+    top: 186px;
+    z-index: -1;
+    margin-left: 59px;
+
+}
+
+.img3 {
+    position: absolute;
+    z-index: -1;
+    top: 552px;
+    margin-left: 242px;
+}
+
+.img4 {
+    position: absolute;
+    z-index: -2;
+    top: 140px;
+    margin-left: 150px;
+}
+
+.catalogText {
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 25px;
+    margin-left: 728px;
+    margin-top: 66px;
+}
+
+.books,
+.electronic,
+.audio,
+.toysAndCreativity,
+.bookAccessories,
+.notepads,
+.boardGames,
+.present,
+.stock {
+    width: 242px;
+    height: 76px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgb(255, 255, 255);
+    width: calc(100% / 4 - 10px); 
+}
+
+.catalogChoose {
+    margin-top: 47px;
+    display: flex;
+    align-content:center;
+    gap: 36px;
+   justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+.books p,
+.electronic p,
+.audio p,
+.toysAndCreativity p,
+.bookAccessories p,
+.notepads p,
+.boardGames p,
+.present p,
+.stock p {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+    
+}
+
+.aboutStore {
+    text-align: center;
+    margin-top: 136px;
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.numberOfBook {
+    display: flex;
+    margin-left: 215px;
+    column-gap: 30px;
+}
+
+.branches,
+.product,
+.buyers,
+.hours {
+    margin-top: 68px;
+    display: flex;
+
+}
+
+.branches h1,
+.product h1,
+.buyers h1,
+.hours h1 {
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.branches p,
+.product p,
+.buyers p,
+.hours p {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+
+
+}
+
+.branches p {
+    margin-left: 27px;
+    display: flex;
+    align-items: center;
+}
+
+.product p {
+    margin-left: 19px;
+    display: flex;
+    align-items: center;
+}
+
+.buyers p {
+    margin-left: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.hours p {
+    margin-left: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.section4 {
+    margin-top: 159px;
+
+}
+
+.delivery {
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.aboutDelivery {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 42px;
+    text-align: center;
+    line-height: 196.19%;
+}
+.socialMedia{
+    margin-top: 134px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 25px;
+}
+.socialMediaPage{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 54px;
+}
