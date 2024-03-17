@@ -587,6 +587,7 @@ body {
         flex-direction: column;
         padding-top: 114px;
         width: 100%;
+        
     }
 
     .catalogRead h1 {
@@ -610,12 +611,14 @@ body {
     }
 
     .img img {
-        width: 350px;
+        width: 320px;
         height: 200px;
         margin-top: 0px;
         top: 0px; 
-        margin-left: 60px;
+         margin-left: 40px;
+        
     }
+    
     
 
     .img1 img {
@@ -623,7 +626,7 @@ body {
         width: 350px;
         height: 300px;
         margin-top: 250px;
-        margin-left: 20px
+        margin-left: px
     }
 
 
@@ -636,6 +639,7 @@ body {
 
     .section3 {
         flex-direction: column;
+    
     }
 
     .numberOfBook {
