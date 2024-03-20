@@ -102,39 +102,6 @@ p {
     justify-content: center;
 }
 
-/* .img1 {
-    display: inline-block;
-    margin-top: 200px;
-    position: relative;
-}
-
-.img1 img {
-    width: 562px;
-    height: 314px;
-}
-
-.img2 {
-
-    position: absolute;
-    top: 186px;
-    z-index: -1;
-    margin-left: 59px;
-
-}
-
-.img3 {
-    position: absolute;
-    z-index: -1;
-    top: 552px;
-    margin-left: 242px;
-}
-
-.img4 {
-    position: absolute;
-    z-index: -2;
-    top: 140px;
-    margin-left: 150px;
-} */
 .img img {
     margin-top: 200px;
     top: 57px;
@@ -587,12 +554,12 @@ body {
         flex-direction: column;
         padding-top: 114px;
         width: 100%;
-        
+
     }
 
     .catalogRead h1 {
         font-size: 32px;
-        width: 95%;
+        width: 90%;
         margin: 0px auto;
     }
 
@@ -606,23 +573,23 @@ body {
     .catalogRead {
         margin-top: 130px;
         flex-direction: column;
-        width: 90%;
-        margin-left: 35px;
+        width: 100%;
+        background-color: aqua;
     }
 
     .img img {
         width: 320px;
         height: 200px;
         margin-top: 0px;
-        top: 0px; 
-         margin-left: 40px;
-        
+        top: 0px;
+        margin-left: 40px;
+
     }
-    
-    
+
+
 
     .img1 img {
-       
+
         width: 350px;
         height: 300px;
         margin-top: 250px;
@@ -639,7 +606,7 @@ body {
 
     .section3 {
         flex-direction: column;
-    
+
     }
 
     .numberOfBook {
@@ -655,11 +622,11 @@ body {
         margin-top: 39px;
         margin: 0px auto;
         width: 90%;
-        
-    
-        }
-        .catalogText{
-            margin-top: 132px;
-        }
+
+    }
+
+    .catalogText {
+        margin-top: 132px;
+    }
 
 }
